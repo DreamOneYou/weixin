@@ -1,0 +1,53 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.container {
+  padding: 20rpx;
+}
+
+.input-section {
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+
+.text-input {
+  width: 100%;
+  height: 80rpx;
+  border: 1px solid #e0e0e0;
+  border-radius: 8rpx;
+  padding: 0 20rpx;
+  margin-bottom: 20rpx;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  width: 100%;
+  height: 88rpx;
+  background: #07c160;
+  color: #fff;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+}
+
+.generated-image {
+  width: 100%;
+  border-radius: 8rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+}
